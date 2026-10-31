@@ -1,0 +1,42 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# builds
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# environment & secrets (keep .env.example committed)
+.env
+.env.local
+.env.development
+.env.production
+.env*.local
+!.env.example
+
+# database dumps / exports
+uplift-data.json
+*.dump
+*.sql.gz
+
+# logs & test output
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+test-results/
+playwright-report/
+artifacts/
+coverage/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
